@@ -38,3 +38,34 @@ header{
   left: 0;
   z-index: 0;
 }
+
+/* Responsivo */
+
+@media screen and (max-width:1300px){
+  .forma1{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:1100px){
+  header{
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  .header__logo{
+    width: 80px;
+  }
+  .forma1{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .header__logo{
+    display: none;
+  }
+
+  .forma1{
+    width: 340px;
+  }
+}
