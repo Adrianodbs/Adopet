@@ -8,6 +8,7 @@
   text-align: center;
   justify-content: center; 
   align-items: center;
+  z-index: 1;
    
 }
 
@@ -63,4 +64,26 @@
   width: 110px;
   position: absolute;
   right: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .logo__azul{
+    width: 200px;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #form-nome, #form-email, #form-senha, #form-confirma{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #form-nome, #form-email, #form-senha, #form-confirma{
+    width: 200px;
+  }
+  .patas{
+    width: 150px;
+  }
 }
