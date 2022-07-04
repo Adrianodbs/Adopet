@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./footer.css');
+@import url('./cadastro.css');
 
 *{
   margin: 0;
@@ -16,11 +17,15 @@
   --creme: #FCF0E3;
   --cinza-escuro: #737380;
   --cinza-claro: #BCBCBC;
+  --cinza-claro-fundo: #F6F6F6;
 }
 
 body{
   width: 100%;
-  background-color: var(--azul);
   position: relative;
   font-family: 'Poppins', sans-serif;
+}
+
+.body__principal{
+  background-color: var(--azul);
 }
