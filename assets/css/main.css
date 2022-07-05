@@ -1,4 +1,4 @@
-main{
+.main{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,13 +8,13 @@ main{
 }
 
 
-main h3{
+.main h3{
   color: #fff;
   margin-top: 30px;
   font-weight: 300;
 }
 
-main p{
+.main p{
   color: #fff;
   width: 30%;
   text-align: center;
