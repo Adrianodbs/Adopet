@@ -52,3 +52,24 @@
   margin: 20px auto;
 }
 
+@media screen and (max-width: 800px){
+  .mensagem__form{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .mensagem__form{
+    width: 350px;
+    z-index: 2;
+  }
+
+  .mensagem__titulo{
+    width: 300px;
+  }
+
+  .cadastro__form2{
+    display: none;
+  }
+}
+
